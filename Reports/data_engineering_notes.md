@@ -9,3 +9,10 @@
 - No duplicate order_item_id found
 - Removed rows with non-positive quantity or unit_price
 - Created item_sales column at transaction level
+
+
+## Products Data Cleaning
+- Verified unique product_id with no duplicates
+- No missing or invalid price values detected
+- Standardized text fields for consistency
+- Preserved original category structure (6 categories)
