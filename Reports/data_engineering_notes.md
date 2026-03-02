@@ -16,3 +16,7 @@
 - No missing or invalid price values detected
 - Standardized text fields for consistency
 - Preserved original category structure (6 categories)
+
+## Customers cleaning complete
+- changed date format form dd mm yyyy to yyyy-mm-dd
+
