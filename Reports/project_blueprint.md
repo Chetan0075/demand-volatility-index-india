@@ -39,3 +39,10 @@ Regional Stability Score
 5️⃣ System Overview
 Briefly describe:
 The system integrates retail sales data with macroeconomic indicators such as CPI, fuel prices, weather patterns, and festival events to forecast demand trends and compute a composite Demand Volatility Index (DVI).
+
+
+
+
+
+Out of ~1.05M order item records, only ~71K had valid foreign key matches with the Orders table.
+For analytical correctness, the project enforces strict referential integrity and excludes orphan records.
