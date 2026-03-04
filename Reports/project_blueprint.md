@@ -25,3 +25,9 @@ The system integrates retail sales data with macroeconomic indicators such as CP
 
 Out of ~1.05M order item records, only ~71K had valid foreign key matches with the Orders table.
 For analytical correctness, the project enforces strict referential integrity and excludes orphan records.
+
+### Shock Detection Logic
+A conservative 2σ threshold was used.  
+No extreme demand shocks were detected in the observed period.  
+Lower σ thresholds were tested for sensitivity analysis.
+
